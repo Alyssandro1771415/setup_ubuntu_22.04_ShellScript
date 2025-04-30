@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# Verifica se o script está sendo executado com permissões de superusuário
 if [ "$EUID" -ne 0 ]; then
   echo "Por favor, execute como root."
   exit
 fi
 
-# Atualiza a lista de pacotes
 echo "Atualizando a lista de pacotes..."
 apt update
 
-# Instala as dependências necessárias
 echo "Instalando dependências necessárias..."
 apt install -y wget gnupg
 
