@@ -11,4 +11,4 @@ echo "Iniciando configuração do Sistema"
 
 
 
-echo "Configuração concluída com sucesso!"
+echo "Configuração concluida com sucesso!"
