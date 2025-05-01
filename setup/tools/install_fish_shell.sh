@@ -4,6 +4,6 @@
 apt install fish
 
 # Settando o fish shell como padrão
-wich fish
+which fish
 echo /usr/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/bin/fish
