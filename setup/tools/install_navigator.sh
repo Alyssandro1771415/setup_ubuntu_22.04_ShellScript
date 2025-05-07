@@ -16,7 +16,7 @@ apt install -y wget gnupg
 
 # Baixa a chave pública do Opera e adiciona ao sistema
 echo "Adicionando a chave pública do Opera..."
-wget -qO- https://deb.opera.com/archive.key | gpg --dearmor -o /usr/share/keyrings/opera-archive-keyring.gpg
+wget -qO- https://deb.opera.com/archive.key | gpg --dearmor --yes -o /usr/share/keyrings/opera-archive-keyring.gpg
 
 # Adiciona o repositório do Opera ao sources list
 echo "Adicionando o repositório do Opera..."
