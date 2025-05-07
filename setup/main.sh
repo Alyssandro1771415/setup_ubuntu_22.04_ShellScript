@@ -13,7 +13,7 @@ echo "Iniciando configuração do sistema..."
 for script in "$base_dir"/tools/*.sh; do
     if [ -f "$script" ]; then
         echo "Executando $(basename "$script")..."
-        bash "$script"
+        sudo bash "$script"
     else
         echo "Erro: Script $script não encontrado!"
     fi
