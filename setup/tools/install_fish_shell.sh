@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Instalando o fish shell
-apt install fish
+apt install -y fish
 
 # Settando o fish shell como padrão
 which fish
