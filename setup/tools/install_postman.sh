@@ -15,8 +15,8 @@ apt install -y wget gnupg
 # --- Postman ---
 
 
-sudo apt install flatpak
+sudo apt install -y flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.getpostman.Postman
+flatpak install -y flathub com.getpostman.Postman
 
 sudo apt update
