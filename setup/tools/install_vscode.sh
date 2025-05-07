@@ -27,7 +27,5 @@ rm -f packages.microsoft.gpg
 
 sudo apt install apt-transport-https
 sudo apt update
-<<<<<<<<< Temporary merge branch 1
 sudo apt install code # or code-insiders
 sudo apt install code
->>>>>>>>> Temporary merge branch 2
